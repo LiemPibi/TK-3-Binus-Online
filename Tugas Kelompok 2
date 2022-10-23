@@ -23,14 +23,14 @@ public class main {
         return false;
     }
 
-    public static void main(String args[]) {
-        System.out.println("TEBAK KATA APAAN TUH");
+       public static void main(String args[]) {
+        System.out.println("Coepoe World Puzzle");
         System.out.println("====================");
 
-        System.out.println("\nAturan main:");
-        System.out.println("1. itulah");
-        System.out.println("2. ya itu");
-        System.out.println("3. nah itu");
+        System.out.println("\nRules:");
+        System.out.println("1. Create a word using given characters, min 3 & max 6 characters.");
+        System.out.println("2. Each level, you have 10 chances to answer correctly");
+        System.out.println("3. To get through to next level, you have to score 70 points each level");
 
         char[][] soal = {
                 { 't', 'n', 'e', 's', 'a', 'r' },
@@ -95,7 +95,7 @@ public class main {
                 }
             }
 
-            System.out.println("Jumlah Poin anda " + poin);
+            System.out.println("Jumlah Poin Anda " + poin);
             skor = skor + poin;
 
             if (poin >= 70) {
